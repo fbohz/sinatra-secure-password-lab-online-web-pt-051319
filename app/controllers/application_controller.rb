@@ -48,7 +48,7 @@ class ApplicationController < Sinatra::Base
 
   get "/failure" do
     erb :failure
-  endUser.find_by_id(session[:user_id])
+  end
 
   get "/logout" do
     session.clear
